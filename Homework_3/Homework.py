@@ -63,21 +63,21 @@
 # либо только русские буквы.
 
 
-dict = {1: "AEIOULNSTRАВЕИНОРСТ",
-        2: "DGДКЛМПУ",
-        3: "BCMPБГЁЬЯ",
-        4: "FHVWYЙЫ",
-        5: "KЖЗХЦЧ",
-        8: "JXШЭЮ",
-        10: "QZФЩЪ"}
+# dict = {1: "AEIOULNSTRАВЕИНОРСТ",
+#         2: "DGДКЛМПУ",
+#         3: "BCMPБГЁЬЯ",
+#         4: "FHVWYЙЫ",
+#         5: "KЖЗХЦЧ",
+#         8: "JXШЭЮ",
+#         10: "QZФЩЪ"}
 
-word = input("Введите слово: ").upper()
-sum = 0
-for i in word :
-    for key, value in dict.items():
-        if i in value:
-            sum += key
-print(f"Стоимость введенного Вами слова: {sum}")
+# word = input("Введите слово: ").upper()
+# sum = 0
+# for i in word :
+#     for key, value in dict.items():
+#         if i in value:
+#             sum += key
+# print(f"Стоимость введенного Вами слова: {sum}")
 
 
 
